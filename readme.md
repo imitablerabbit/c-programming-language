@@ -10,12 +10,12 @@ This repo contains my solutions to the tasks presented in "The C Programming Lan
 | 1-2      | `chapter1/helloworld.c`         |
 | 1-3      | `chapter1/fahrenheit-celsius.c` |
 | 1-4      | `chapter1/celsius-fahrenheit.c` |
-| 1-5      |                                 |
-| 1-6      |                                 |
-| 1-7      |                                 |
-| 1-8      |                                 |
-| 1-9      |                                 |
-| 1-10     |                                 |
+| 1-5      | `chapter1/fahrenheit-celsius.c` |
+| 1-6      | `chapter1/getchar.c`            |
+| 1-7      | `chapter1/getchar.c`            |
+| 1-8      | `chapter1/count.c`              |
+| 1-9      | `chapter1/ignore.c`             |
+| 1-10     | `chapter1/replace.c`            |
 | 1-11     |                                 |
 | 1-12     |                                 |
 | 1-13     |                                 |
@@ -44,4 +44,16 @@ This repo contains my solutions to the tasks presented in "The C Programming Lan
 | 2-7      |                         |
 | 2-8      |                         |
 | 2-9      |                         |
+| 2-10     |                         |
+
+## Chapter 3
+
+| Exercise | File |
+|----------|------|
+| 3-1      |      |
+| 3-2      |      |
+| 3-3      |      |
+| 3-4      |      |
+| 3-5      |      |
+| 3-6      |      |
 

@@ -22,7 +22,7 @@ This repo contains my solutions to the tasks presented in "The C Programming Lan
 | 1-14     | `chapter1/histogramchar.c`      |
 | 1-15     | `chapter1/fahrenheit-celsius.c` |
 | 1-16     | `chapter1/longlines.c`          |
-| 1-17     |                                 |
+| 1-17     | `chapter1/despacer.c`           |
 | 1-18     |                                 |
 | 1-19     |                                 |
 | 1-20     | `chapter1/detab.c`              |

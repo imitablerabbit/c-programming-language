@@ -20,8 +20,8 @@ This repo contains my solutions to the tasks presented in "The C Programming Lan
 | 1-12     | `chapter1/word.c`               |
 | 1-13     | `chapter1/histogram.c`          |
 | 1-14     | `chapter1/histogramchar.c`      |
-| 1-15     | `chpater1/fahrenheit-celsius.c` |
-| 1-16     |                                 |
+| 1-15     | `chapter1/fahrenheit-celsius.c` |
+| 1-16     | `chapter1/longlines.c`          |
 | 1-17     |                                 |
 | 1-18     |                                 |
 | 1-19     |                                 |

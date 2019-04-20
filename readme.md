@@ -16,10 +16,10 @@ This repo contains my solutions to the tasks presented in "The C Programming Lan
 | 1-8      | `chapter1/count.c`              |
 | 1-9      | `chapter1/ignore.c`             |
 | 1-10     | `chapter1/replace.c`            |
-| 1-11     |                                 |
-| 1-12     |                                 |
-| 1-13     |                                 |
-| 1-14     |                                 |
+| 1-11     | `chapter1/test.md`              |
+| 1-12     | `chapter1/word.c`               |
+| 1-13     | `chapter1/histogram.c`          |
+| 1-14     | `chapter1/histogramchar.c`      |
 | 1-15     |                                 |
 | 1-16     |                                 |
 | 1-17     |                                 |

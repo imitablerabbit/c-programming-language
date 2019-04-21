@@ -21,10 +21,10 @@ This repo contains my solutions to the tasks presented in "The C Programming Lan
 | 1-13     | `chapter1/histogram.c`          |
 | 1-14     | `chapter1/histogramchar.c`      |
 | 1-15     | `chapter1/fahrenheit-celsius.c` |
-| 1-16     | `chapter1/longlines.c`          |
-| 1-17     | `chapter1/despacer.c`           |
-| 1-18     |                                 |
-| 1-19     |                                 |
+| 1-16     | `chapter1/linecount.c`          |
+| 1-17     | `chapter1/longlines.c`          |
+| 1-18     | `chapter1/despacer.c`           |
+| 1-19     | `chapter1/reverse.c`            |
 | 1-20     | `chapter1/detab.c`              |
 | 1-21     |                                 |
 | 1-22     |                                 |

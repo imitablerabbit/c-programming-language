@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 #define TAB_STOP 8
-#define MAX_LINE_LENGTH 1000
 
 void replacespaces(char[], char[], int);
 
@@ -12,7 +11,7 @@ int main() {
     size_t buffer = 0;
 
     while ((len = getline(&line, &buffer, stdin)) != -1) {
-        char expandedline[len * TAB_STOP];
+        char expandedline[len];
         replacespaces(line, expandedline, TAB_STOP);
         printf("%s", expandedline);
     }

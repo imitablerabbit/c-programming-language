@@ -1,12 +1,12 @@
 # The C Programming Language Solutions
 
-This repo contains my solutions to the tasks presented in "The C Programming Language" book.
+This repo contains my solutions to the tasks presented in "The C Programming Language" book. It should be noted that these solutions are not complete. They are only shells of the full program. This is so that I can go through as many different exercises in the book without taking up too much time.
 
 ## Chapter 1
 
 | Exercise | File                            |
 |----------|---------------------------------|
-| 1-1      | `chapter1/helloworld.c`         |
+| 1-1      | [chapter1/helloworld.c](`helloworld.c`)         |
 | 1-2      | `chapter1/helloworld.c`         |
 | 1-3      | `chapter1/fahrenheit-celsius.c` |
 | 1-4      | `chapter1/celsius-fahrenheit.c` |
@@ -26,10 +26,10 @@ This repo contains my solutions to the tasks presented in "The C Programming Lan
 | 1-18     | `chapter1/despacer.c`           |
 | 1-19     | `chapter1/reverse.c`            |
 | 1-20     | `chapter1/detab.c`              |
-| 1-21     |                                 |
-| 1-22     |                                 |
-| 1-23     |                                 |
-| 1-24     |                                 |
+| 1-21     | `chapter1/entab.c`              |
+| 1-22     | `chapter1/linewrap.c`           |
+| 1-23     | `chapter1/commentremover.c`     |
+| 1-24     | `chapter1/clinter.c`            |
 
 ## Chapter 2
 

@@ -28,8 +28,8 @@ This repo contains my solutions to the tasks presented in "The C Programming Lan
 | 1-20     | [`detab.c`](chapter1/detab.c)                           | `gcc --std=c99 detab.c`              |
 | 1-21     | [`entab.c`](chapter1/entab.c)                           | `gcc --std=gnu17 entab.c`            |
 | 1-22     | [`linewrap.c`](chapter1/linewrap.c)                     | `gcc --std=gnu17 linewrap.c`         |
-| 1-23     | [`commentremover.c`](chapter1/commentremover.c)         |                                      |
-| 1-24     | [`clinter.c`](chapter1/clinter.c)                       |                                      |
+| 1-23     | [`commentremover.c`](chapter1/commentremover.c)         | `gcc --std=c99 commentremover.c`     |
+| 1-24     |                                                         |                                      |
 
 ## Chapter 2
 

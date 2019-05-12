@@ -29,7 +29,7 @@ This repo contains my solutions to the tasks presented in "The C Programming Lan
 | 1-21     | [`entab.c`](chapter1/entab.c)                           | `gcc --std=gnu17 entab.c`            |
 | 1-22     | [`linewrap.c`](chapter1/linewrap.c)                     | `gcc --std=gnu17 linewrap.c`         |
 | 1-23     | [`commentremover.c`](chapter1/commentremover.c)         | `gcc --std=c99 commentremover.c`     |
-| 1-24     |                                                         |                                      |
+| 1-24     | [`syntaxchecker.c`](chapter1/syntaxchecker.c)           | `gcc --std=c89 syntaxchecker.c`      |
 
 ## Chapter 2
 

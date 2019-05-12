@@ -44,10 +44,6 @@ size_t get_input(const size_t init_buf, char** buf) {
     return index;
 }
 
-/* Traverse the passed in string and run all of the syntax checks available.
- * If a single syntax check fails then this function will return false. It will
- * also print out errors to stdout. This function returns the number of syntax
- * errors that have been found in the string. */
 int syntax_check(char* s, size_t len) {
     unsigned int i;
     unsigned int error_count;
@@ -63,24 +59,24 @@ int syntax_check(char* s, size_t len) {
                 cpos = 0;
                 break;
             case '"':
-                DEBUG_PRINT("Checking string literal at %d\n", i);
-                check_resp = check_string(s + i, len - i);
+                DEBUG_PRINT("CHECK: Checking string literal at %d\n", i);
+                check_resp = check_string_literal(s + i, len - i);
                 if (check_resp < 0) {
                     printf("%d-%d: Missing \" (apostrophe) at the end of string literal\n", line, cpos);
                     error_count++;
                 } else {
-                    DEBUG_PRINT("Char literal check passed at %d\n", i);
+                    DEBUG_PRINT("PASSED: String literal check passed at %d\n", i);
                     i += check_resp;
                 }
                 break;
             case '\'':
-                DEBUG_PRINT("Checking char literal at %d\n", i);
+                DEBUG_PRINT("CHECK: Checking char literal at %d\n", i);
                 check_resp = check_char_literal(s + i, len - i);
                 if (check_resp < 0) {
                     printf("%d-%d: Missing ' (quote) at the end of char literal\n", line, cpos);
                     error_count++;
                 } else {
-                    DEBUG_PRINT("Char literal check passed at %d\n", i);
+                    DEBUG_PRINT("PASSED: Char literal check passed at %d\n", i);
                     i += check_resp;
                 }
                 break;
@@ -89,13 +85,13 @@ int syntax_check(char* s, size_t len) {
             case '(':
                 /* Check forward matching characters. */
                 matching_c = get_matching_char(c);
-                DEBUG_PRINT("Checking for matching chars %c and %c\n", c, matching_c);
+                DEBUG_PRINT("CHECK: Checking for matching chars %c and %c\n", c, matching_c);
                 check_resp = find_matching_char(s + i, len - i, c, matching_c);
                 if (check_resp < 0) {
-                    printf("%d-%d: No matching char %c found for %c\n", line, cpos, matching_c, c);
+                    printf("%d-%d: Missing %c at the end of %c\n", line, cpos, matching_c, c);
                     error_count++;
                 } else {
-                    DEBUG_PRINT("Matching char %c found at %d\n", matching_c, i + check_resp);
+                    DEBUG_PRINT("PASSED: Matching char %c found at %d\n", matching_c, i + check_resp);
                 }
                 break;
             default:
@@ -106,11 +102,6 @@ int syntax_check(char* s, size_t len) {
     return error_count;
 }
 
-/* Checks whether the character literal is complete. The string passed in should
- * be at the start of the character literal. This function will check the next 4
- * characters in the string to make sure that are all valid. If a char literal
- * is incorrect then this function will return < 1. If the char literal is
- * correct then this function will return the length of the char literal. */
 int check_char_literal(char* s, size_t len) {
     unsigned int i = 0;
     char c;
@@ -137,7 +128,7 @@ int check_char_literal(char* s, size_t len) {
     return i;
 }
 
-int check_string(char* s, size_t len) {
+int check_string_literal(char* s, size_t len) {
     int i = 0;
     bool skip = false;
 
@@ -183,7 +174,7 @@ int find_matching_char(char* s, size_t len, char open, char closing) {
 
         /* Remove strings as long as we are not looking for quote */
         if (c == '"' && closing != '"') {
-            skip = check_string(s + i, len);
+            skip = check_string_literal(s + i, len);
             if (skip > 0) {
                 i += skip;
             }

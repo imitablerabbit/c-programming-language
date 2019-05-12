@@ -26,19 +26,32 @@
  * up to and including \0 is returned from the function. */
 size_t get_input(size_t init_buf, char** buf);
 
-/* Check the syntax of the passed in string. */
+/* Traverse the passed in string and run all of the syntax checks available.
+ * If a single syntax check fails then this function will return false. It will
+ * also print out errors to stdout. This function returns the number of syntax
+ * errors that have been found in the string. */
 int syntax_check(char* s, size_t len);
 
-/* Check whether the found character literal is complete. */
+/* Checks whether the character literal is complete. The string passed in should
+ * be at the start of the character literal. This function will check the next 4
+ * characters in the string to make sure that are all valid. If a char literal
+ * is incorrect then this function will return < 1. If the char literal is
+ * correct then this function will return the length of the char literal. */
 int check_char_literal(char* s, size_t len);
 
-/* Check whether ot not */
-int check_string(char* s, size_t len);
+/* Checks the string literal to make sure that it has an ending character. Any
+ * escaped characters in the string will be skipped. This means that if the
+ * string contains \" inside of it then the '"' character will not be used as
+ * the end character of the string. */
+int check_string_literal(char* s, size_t len);
 
 /* Return the matching for the char passed in. */
 char get_matching_char(char c);
 
-/* Find the position of the matching characters. */
+/* Find the location of the correctly matching char. This function takes into
+ * account the number of matching opening and closing characters in between the
+ * closing character needed. This function also ignores comments and strings.
+ * It returns the position of the matched character in the string passed in. */
 int find_matching_char(char* s, size_t len, char open, char close);
 
 int swallow_comment(char* s, size_t len);

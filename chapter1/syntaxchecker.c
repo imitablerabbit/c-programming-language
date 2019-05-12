@@ -160,10 +160,6 @@ char get_matching_char(char c) {
     }
 }
 
-/* Find the location of the correctly matching char. This function takes into
- * account the number of matching opening and closing characters in between the
- * closing character needed. This function also ignores comments and strings.
- * It returns the position of the matched character in the string passed in. */
 int find_matching_char(char* s, size_t len, char open, char closing) {
     unsigned int needed = 1;
     unsigned int i;
@@ -192,7 +188,7 @@ int find_matching_char(char* s, size_t len, char open, char closing) {
 
         /* Skip any comments if possible */
         if (c == '/' && s[i + 1] == '*') {
-            skip = swallow_comment(s + i, len);
+            skip = check_comment(s + i, len);
             if (skip > 0) {
                 i += skip;
             }

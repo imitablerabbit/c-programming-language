@@ -33,18 +33,18 @@ This repo contains my solutions to the tasks presented in "The C Programming Lan
 
 ## Chapter 2
 
-| Exercise | File                                    | Compilation                  |
-|----------|-----------------------------------------|------------------------------|
-| 2-1      | [`typeranges.c`](chapter2/typeranges.c) | `gcc --std=c99 typeranges.c` |
-| 2-2      |                                         |                              |
-| 2-3      |                                         |                              |
-| 2-4      | [`squeeze.c`](chapter2/squeeze.c)       | `gcc --std=c99 squeeze.c`    |
-| 2-5      |                                         |                              |
-| 2-6      | [`setbits.c`](chapter2/setbits.c)       | `gcc --std=c99 setbits.c`    |
-| 2-7      |                                         |                              |
-| 2-8      |                                         |                              |
-| 2-9      |                                         |                              |
-| 2-10     |                                         |                              |
+| Exercise | File                                      | Compilation                   |
+|----------|-------------------------------------------|-------------------------------|
+| 2-1      | [`typeranges.c`](chapter2/typeranges.c)   | `gcc --std=c99 typeranges.c`  |
+| 2-2      | [`noandorloop.c`](chapter2/noandorloop.c) | `gcc --std=c89 noandorloop.c` |
+| 2-3      | [`htoi.c`](chapter2/htoi.c)               | `gcc --std=c89 htoi.c`        |
+| 2-4      | [`squeeze.c`](chapter2/squeeze.c)         | `gcc --std=c99 squeeze.c`     |
+| 2-5      |                                           |                               |
+| 2-6      | [`setbits.c`](chapter2/setbits.c)         | `gcc --std=c99 setbits.c`     |
+| 2-7      |                                           |                               |
+| 2-8      |                                           |                               |
+| 2-9      |                                           |                               |
+| 2-10     |                                           |                               |
 
 ## Chapter 3
 

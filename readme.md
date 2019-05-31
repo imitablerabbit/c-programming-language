@@ -33,18 +33,18 @@ This repo contains my solutions to the tasks presented in "The C Programming Lan
 
 ## Chapter 2
 
-| Exercise | File                                      | Compilation                   |
-|----------|-------------------------------------------|-------------------------------|
-| 2-1      | [`typeranges.c`](chapter2/typeranges.c)   | `gcc --std=c99 typeranges.c`  |
-| 2-2      | [`noandorloop.c`](chapter2/noandorloop.c) | `gcc --std=c89 noandorloop.c` |
-| 2-3      | [`htoi.c`](chapter2/htoi.c)               | `gcc --std=c89 htoi.c`        |
-| 2-4      | [`squeeze.c`](chapter2/squeeze.c)         | `gcc --std=c99 squeeze.c`     |
-| 2-5      | [`any.c`](chapter2/any.c)                 | `gcc --std=c89 any.c`         |
-| 2-6      | [`setbits.c`](chapter2/setbits.c)         | `gcc --std=c99 setbits.c`     |
-| 2-7      | [`invert.c`](chapter2/invert.c)           | `gcc --std=c89 invert.c`      |
-| 2-8      | [`rightrot.c`](chapter2/rightrot.c)       | `gcc --std=c89 rightrot.c`    |
-| 2-9      |                                           |                               |
-| 2-10     |                                           |                               |
+| Exercise | File                                            | Compilation                      |
+|----------|-------------------------------------------------|----------------------------------|
+| 2-1      | [`typeranges.c`](chapter2/typeranges.c)         | `gcc --std=c99 typeranges.c`     |
+| 2-2      | [`noandorloop.c`](chapter2/noandorloop.c)       | `gcc --std=c89 noandorloop.c`    |
+| 2-3      | [`htoi.c`](chapter2/htoi.c)                     | `gcc --std=c89 htoi.c`           |
+| 2-4      | [`squeeze.c`](chapter2/squeeze.c)               | `gcc --std=c99 squeeze.c`        |
+| 2-5      | [`any.c`](chapter2/any.c)                       | `gcc --std=c89 any.c`            |
+| 2-6      | [`setbits.c`](chapter2/setbits.c)               | `gcc --std=c99 setbits.c`        |
+| 2-7      | [`invert.c`](chapter2/invert.c)                 | `gcc --std=c89 invert.c`         |
+| 2-8      | [`rightrot.c`](chapter2/rightrot.c)             | `gcc --std=c89 rightrot.c`       |
+| 2-9      | [`twoscomplement.c`](chapter2/twoscomplement.c) | `gcc --std=c89 twoscomplement.c` |
+| 2-10     |                                                 |                                  |
 
 ## Chapter 3
 

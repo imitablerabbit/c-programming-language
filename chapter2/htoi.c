@@ -14,6 +14,7 @@ int main() {
     printf("%s = %d -> %d\n", "0xDEAD", 0xDEAD, htoi("0xDEAD", 7));
     printf("%s = %d -> %d\n", "0xBEEF", 0xBEEF, htoi("0xBEEF", 7));
     printf("%s = %d -> %d\n", "0xdead", 0xdead, htoi("0xdead", 7));
+    printf("%s = %d -> %d\n", "dead", 0xdead, htoi("dead", 7));
 }
 
 int htoi(char* s, size_t len) {

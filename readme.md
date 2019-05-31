@@ -44,7 +44,7 @@ This repo contains my solutions to the tasks presented in "The C Programming Lan
 | 2-7      | [`invert.c`](chapter2/invert.c)                 | `gcc --std=c89 invert.c`         |
 | 2-8      | [`rightrot.c`](chapter2/rightrot.c)             | `gcc --std=c89 rightrot.c`       |
 | 2-9      | [`twoscomplement.c`](chapter2/twoscomplement.c) | `gcc --std=c89 twoscomplement.c` |
-| 2-10     |                                                 |                                  |
+| 2-10     | [`lower.c`](chapter2/lower.c)                   | `gcc --std=c89 lower.c`          |
 
 ## Chapter 3
 

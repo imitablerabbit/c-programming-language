@@ -48,12 +48,12 @@ This repo contains my solutions to the tasks presented in "The C Programming Lan
 
 ## Chapter 3
 
-| Exercise | File | Compilation |
-|----------|------|-------------|
-| 3-1      |      |             |
-| 3-2      |      |             |
-| 3-3      |      |             |
-| 3-4      |      |             |
-| 3-5      |      |             |
-| 3-6      |      |             |
+| Exercise | File                                  | Compilation                                    |
+|----------|---------------------------------------|------------------------------------------------|
+| 3-1      | [`binsearch.c`](chapter3/binsearch.c) | `gcc --std=c89 -DBINSEARCH_TYPE=2 binsearch.c` |
+| 3-2      | [`escape.c`](chapter3/escape.c)       | `gcc --std=c89 escape.c`                       |
+| 3-3      | [`expand.c`](chapter3/expand.c)       | `gcc --std=c89 expand.c`                       |
+| 3-4      |                                       |                                                |
+| 3-5      |                                       |                                                |
+| 3-6      |                                       |                                                |
 
